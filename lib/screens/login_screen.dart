@@ -9,6 +9,8 @@ class LogInScreen extends StatefulWidget {
 }
 
 class _LogInScreenState extends State<LogInScreen> {
+  String email = '';
+  String password = '';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,6 +27,7 @@ class _LogInScreenState extends State<LogInScreen> {
             TextField(
               onChanged: (value) {
                 //Do something with the user input.
+                email = value;
               },
               decoration: const InputDecoration(
                 hintText: 'Enter your email',
@@ -51,6 +54,7 @@ class _LogInScreenState extends State<LogInScreen> {
             TextField(
               onChanged: (value) {
                 //Do something with the user input.
+                password = value;
               },
               decoration: const InputDecoration(
                 hintText: 'Enter your password.',

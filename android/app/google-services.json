@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384579986518",
+    "project_id": "chatapplication-cafb1",
+    "storage_bucket": "chatapplication-cafb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384579986518:android:b05fbc11872e89155787f7",
+        "android_client_info": {
+          "package_name": "com.deepak.my_chats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384579986518-43ffo91ijeh6bbndrhqbbull55qkle1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpDgZ_oi7CidCxIgWe64jMtYi-bqsPlTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384579986518-43ffo91ijeh6bbndrhqbbull55qkle1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
